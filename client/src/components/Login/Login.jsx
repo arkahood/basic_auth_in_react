@@ -35,7 +35,7 @@ function Login(props){
                     props.updateLogin(input)
                     setinput({name:"",pass:""});
                     event.preventDefault();
-                }} class="btn btn-light">Log In</button>
+                }} className="btn btn-light">Log In</button>
             </form>
         </div>
     );

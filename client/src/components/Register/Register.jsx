@@ -34,7 +34,7 @@ function Register(props){
                 props.registerBtn(input);
                 setinput({name:"",pass:""});
                 event.preventDefault();
-                }} class="btn btn-light">Register</button>
+                }} className="btn btn-light">Register</button>
             </form>
             
         </div>
